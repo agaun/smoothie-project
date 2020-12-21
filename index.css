@@ -1,0 +1,308 @@
+.header {
+    background-image: url("./assets/images/header-bg-img.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1080px;
+}
+
+.header__top-inner {
+display: flex;
+justify-content: space-around;
+padding: 50px;
+align-items: center;
+}
+
+.menu__list {
+    display: flex;
+    font-weight: bold;
+}
+
+.menu__link {
+    margin: 11px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-content {
+
+}
+
+.personal__list {
+    display: flex;
+}
+
+.personal__list-item {
+    margin: 20px;
+}
+
+.personal__link-cart {
+display: flex;
+position: relative;
+text-decoration: none;
+}
+
+.personal__cart-count {
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    padding: 3px;
+    /* margin-top: -5px; */
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.social__list {
+    display: flex;
+    align-items: center;
+}
+
+.social__list-item {
+    text-align: center;
+    margin: 11px;
+    background-color: white;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.social__link {
+    line-height: .7;
+}
+
+
+.header__content-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    padding: 20px 40px 20px 40px;
+    color: white;
+    border-radius: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    -o-border-radius: 80px;
+}
+
+
+.btn.btn--green-bg {
+    background-color: #0aa566;
+    border:none;
+    font-size: 24px;
+}
+
+.arrow--yellow {
+    margin-left: 40px;
+}
+
+.heading {
+    color: white;
+    font-size: 60px;
+}
+
+.smoothies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.smoothies__grid {
+    margin-top: 30px;
+    max-width: 780px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.smoothies__grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    height: 110px;
+    margin: 20px;
+}
+
+.smothies__top {
+    max-width: 780px;
+}
+
+.title {
+    color: #face89;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+}
+
+.text.text--black {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.smoothies__grid-text {
+    color: #f2612d;
+}
+
+.about {
+    display: flex; 
+    background-color: #138672;
+}
+
+.about__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    position: relative;
+}
+
+.about__img--wrapper {
+    width: 50%;
+    text-align: center;
+}
+
+.title.title--white {
+    color: white;
+}
+
+.title--lime {
+    color: #cae941;
+    margin-left: 10px;
+}
+
+.about__list-inner {
+    color: white;
+    line-height: 50px;
+    font-size: 21px;
+    margin-top: 30px;
+}
+
+.about__list {
+    list-style-type: square;
+    display: flex;
+    flex-direction: column;
+    list-style-position: inside;
+    list-style-image:url(./assets/images/icon_li.png);
+    padding-left: 30px;
+    font-family: Muli-Bold;
+}
+
+.btn.btn--yellow-border {
+    border-color: #f8b231;
+    border-width: 5px; 
+    background-color: transparent;
+    font-size: 25px;
+    margin-top: 50px;
+    width: 39%;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around; 
+
+}
+
+.products__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div {
+    border: 1px solid red
+}
+
+
+@font-face {
+    font-family: 'Muli-Bold';
+    src: url(./assets/fonts/Muli-Bold.woff);
+}
+
+@font-face {
+    font-family: 'Muli-ExtraBold';
+    src: url(./assets/fonts/Muli-ExtraBold.woff);    
+}
+
+@font-face {
+    src: url(./assets/fonts/Muli-ExtraBoldItalic.woff);
+}
+
+@font-face {
+    src: url(./assets/fonts/Muli-Regular.woff);
+}
+
+@font-face {
+    src: url(./assets/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url(./assets/fonts/Poppins-SemiBold.ttf);
+}
